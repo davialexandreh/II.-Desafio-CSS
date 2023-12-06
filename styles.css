@@ -1,0 +1,133 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 896px 100px 42px;
+    cursor: pointer;
+}
+
+.link-header {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    color: #17233D;
+    margin-right: 32px;
+    text-decoration: none;
+    letter-spacing: 0.875px;
+}
+
+.button-header {
+    background: #4CB538;
+    width: 124px;
+    height: 51px;
+    border: 1px;
+    border-color: #4CB538;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+main {
+    margin-left: 80px;
+    display: inline-block;
+}
+
+img {
+    width: 583.17px;
+    height: 374.821px;
+    flex-shrink: 0;
+}
+
+section {
+    display: inline-block;
+    margin-left: 85px;
+}
+
+h1 {
+    width: 582px;
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+}
+
+p {
+    margin-top: 47px;
+    margin-bottom: 55px;
+    width: 493px;
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.button-section {
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    .button-header {
+        margin: 17px 15px 0 545px;
+    }
+
+    section {
+        margin: 124px 55px 0px 55px;
+    }
+
+    main {
+        display: block;
+        margin: 0 70px;
+    }
+
+    h1 {
+        text-align: center;
+        width: 480px;
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+        text-align: center;
+    }
+
+    .button-section {
+        margin: 0 auto;
+        display: block;
+    }
+
+    img {
+        position: absolute;
+        margin-top: 600px;
+        width: auto;
+        height: auto;
+    }
+
+
+
+}
